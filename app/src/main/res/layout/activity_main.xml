@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context="com.reportapp071997.tourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/tourist_text_view"
+        style="@style/textview"
+        android:background="@color/yellow"
+        android:text="@string/tourist" />
+
+    <TextView
+        android:id="@+id/eat_text_view"
+        style="@style/textview"
+        android:background="@color/blue"
+        android:text="@string/retaraunt" />
+
+    <TextView
+        android:id="@+id/street_text_view"
+        style="@style/textview"
+        android:background="@color/pink"
+        android:text="@string/street" />
+
+    <TextView
+        android:id="@+id/market_text_view"
+        style="@style/textview"
+        android:background="@color/purple"
+        android:text="@string/market" />
+
+</LinearLayout>
